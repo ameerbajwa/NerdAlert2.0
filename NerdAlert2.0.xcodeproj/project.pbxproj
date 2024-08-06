@@ -17,6 +17,19 @@
 		DE2501892C4F0885001906F5 /* NerdAlert2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2501882C4F0885001906F5 /* NerdAlert2_0Tests.swift */; };
 		DE2501932C4F0885001906F5 /* NerdAlert2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2501922C4F0885001906F5 /* NerdAlert2_0UITests.swift */; };
 		DE2501952C4F0885001906F5 /* NerdAlert2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2501942C4F0885001906F5 /* NerdAlert2_0UITestsLaunchTests.swift */; };
+		DE9EAF5A2C4F1E2C009F20BB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF592C4F1E2C009F20BB /* NetworkService.swift */; };
+		DE9EAF5B2C4F1E2C009F20BB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF592C4F1E2C009F20BB /* NetworkService.swift */; };
+		DE9EAF5C2C4F1E2C009F20BB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF592C4F1E2C009F20BB /* NetworkService.swift */; };
+		DE9EAF632C4F1ED6009F20BB /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF622C4F1ED6009F20BB /* QuizQuestion.swift */; };
+		DE9EAF642C4F1ED6009F20BB /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF622C4F1ED6009F20BB /* QuizQuestion.swift */; };
+		DE9EAF652C4F1ED6009F20BB /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF622C4F1ED6009F20BB /* QuizQuestion.swift */; };
+		DE9EAF672C4F1F76009F20BB /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF662C4F1F76009F20BB /* Quiz.swift */; };
+		DE9EAF682C4F1F76009F20BB /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF662C4F1F76009F20BB /* Quiz.swift */; };
+		DE9EAF692C4F1F76009F20BB /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF662C4F1F76009F20BB /* Quiz.swift */; };
+		DE9EAF6B2C4F2008009F20BB /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF6A2C4F2008009F20BB /* World.swift */; };
+		DE9EAF6C2C4F2008009F20BB /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF6A2C4F2008009F20BB /* World.swift */; };
+		DE9EAF6D2C4F2008009F20BB /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EAF6A2C4F2008009F20BB /* World.swift */; };
+		DEDD9CCB2C616820000417F1 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DEDD9CCA2C616820000417F1 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,10 @@
 		DE25018E2C4F0885001906F5 /* NerdAlert2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerdAlert2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2501922C4F0885001906F5 /* NerdAlert2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdAlert2_0UITests.swift; sourceTree = "<group>"; };
 		DE2501942C4F0885001906F5 /* NerdAlert2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdAlert2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE9EAF592C4F1E2C009F20BB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DE9EAF622C4F1ED6009F20BB /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		DE9EAF662C4F1F76009F20BB /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		DE9EAF6A2C4F2008009F20BB /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDD9CCB2C616820000417F1 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +119,10 @@
 		DE25016D2C4F0883001906F5 /* NerdAlert2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				DE9EAF612C4F1EB5009F20BB /* Coordinators */,
+				DE9EAF602C4F1EAD009F20BB /* ViewModels */,
+				DE9EAF5F2C4F1EA5009F20BB /* Controllers */,
+				DE9EAF5E2C4F1EA0009F20BB /* Models */,
 				DE25016E2C4F0883001906F5 /* AppDelegate.swift */,
 				DE2501702C4F0883001906F5 /* SceneDelegate.swift */,
 				DE2501722C4F0883001906F5 /* ViewController.swift */,
@@ -109,6 +131,7 @@
 				DE25017C2C4F0885001906F5 /* LaunchScreen.storyboard */,
 				DE25017F2C4F0885001906F5 /* Info.plist */,
 				DE2501772C4F0883001906F5 /* NerdAlert2_0.xcdatamodeld */,
+				DE9EAF592C4F1E2C009F20BB /* NetworkService.swift */,
 			);
 			path = NerdAlert2.0;
 			sourceTree = "<group>";
@@ -130,6 +153,37 @@
 			path = NerdAlert2.0UITests;
 			sourceTree = "<group>";
 		};
+		DE9EAF5E2C4F1EA0009F20BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EAF622C4F1ED6009F20BB /* QuizQuestion.swift */,
+				DE9EAF662C4F1F76009F20BB /* Quiz.swift */,
+				DE9EAF6A2C4F2008009F20BB /* World.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE9EAF5F2C4F1EA5009F20BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE9EAF602C4F1EAD009F20BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DE9EAF612C4F1EB5009F20BB /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +200,9 @@
 			dependencies = (
 			);
 			name = NerdAlert2.0;
+			packageProductDependencies = (
+				DEDD9CCA2C616820000417F1 /* RealmSwift */,
+			);
 			productName = NerdAlert2.0;
 			productReference = DE25016B2C4F0883001906F5 /* NerdAlert2.0.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +275,9 @@
 				Base,
 			);
 			mainGroup = DE2501622C4F0883001906F5;
+			packageReferences = (
+				DEDD9CC92C616820000417F1 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = DE25016C2C4F0883001906F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,9 +321,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9EAF632C4F1ED6009F20BB /* QuizQuestion.swift in Sources */,
+				DE9EAF5A2C4F1E2C009F20BB /* NetworkService.swift in Sources */,
+				DE9EAF672C4F1F76009F20BB /* Quiz.swift in Sources */,
 				DE2501732C4F0883001906F5 /* ViewController.swift in Sources */,
 				DE25016F2C4F0883001906F5 /* AppDelegate.swift in Sources */,
 				DE2501712C4F0883001906F5 /* SceneDelegate.swift in Sources */,
+				DE9EAF6B2C4F2008009F20BB /* World.swift in Sources */,
 				DE2501792C4F0883001906F5 /* NerdAlert2_0.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9EAF642C4F1ED6009F20BB /* QuizQuestion.swift in Sources */,
+				DE9EAF5B2C4F1E2C009F20BB /* NetworkService.swift in Sources */,
+				DE9EAF682C4F1F76009F20BB /* Quiz.swift in Sources */,
 				DE2501892C4F0885001906F5 /* NerdAlert2_0Tests.swift in Sources */,
+				DE9EAF6C2C4F2008009F20BB /* World.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9EAF6D2C4F2008009F20BB /* World.swift in Sources */,
 				DE2501952C4F0885001906F5 /* NerdAlert2_0UITestsLaunchTests.swift in Sources */,
+				DE9EAF692C4F1F76009F20BB /* Quiz.swift in Sources */,
+				DE9EAF5C2C4F1E2C009F20BB /* NetworkService.swift in Sources */,
+				DE9EAF652C4F1ED6009F20BB /* QuizQuestion.swift in Sources */,
 				DE2501932C4F0885001906F5 /* NerdAlert2_0UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +677,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEDD9CC92C616820000417F1 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.52.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEDD9CCA2C616820000417F1 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEDD9CC92C616820000417F1 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DE2501772C4F0883001906F5 /* NerdAlert2_0.xcdatamodeld */ = {
